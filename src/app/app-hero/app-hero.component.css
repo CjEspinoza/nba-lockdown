@@ -1,0 +1,90 @@
+table{
+    color: white;
+    margin-top: 10px;
+    height: 655px;
+}
+#rightpanel1{
+    margin-top: -15px;
+    width: 100%;
+    height: 322px;
+    background-color:  rgb(36, 36, 36);
+}
+#rightpanel2{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 11px;
+    height: 322px;
+    background-color:  rgb(36, 36, 36);
+}
+#middlepanel{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 655px;
+    background-color:  rgb(36, 36, 36);
+}
+#leftpanel{
+    width: 100%;
+    height: 655px;
+    background-color:  rgb(36, 36, 36);
+}
+label{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
+    font-size: 32px;
+    margin-top: 10px;
+}
+#mp3title{
+    display: block;
+    justify-content: center;
+    font-family: century gothic;
+    font-size: 15px;
+    text-align: center;
+    margin-left: 15px;
+}
+#mp3{
+    height: 310px;
+}
+#mp3 td{
+    font-family: century gothic;
+}
+#mp3 a{
+    text-decoration: none;
+    color: white;
+}
+#gametitle{
+    font-size: 15px;
+    text-align: center;
+    font-family: century gothic;
+}
+#game{
+    display: block;
+    justify-content: center;
+    text-align: center;
+    height: 270px;
+    width: 270px;
+    margin: 15px;
+}
+#plague{
+    height: 150px;
+    width: 200px;
+}
+#plaguetitle{
+    text-decoration: none;
+    color: white;
+    font-family: century gothic;
+}
+button{
+    height: 30px;
+    width: 130px;
+    font-size: 20px;
+    font-family: century gothic;
+    font-style: bold;
+    background-color: green;
+    border: none;
+    cursor: pointer;
+    color: white;
+    border-radius: 2px;
+    margin-top: 10px;
+}
