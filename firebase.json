@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "nba-lockdown",
+      "public": "dist/nba-lockdown",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
